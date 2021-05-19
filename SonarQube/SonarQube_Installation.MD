@@ -14,6 +14,11 @@ Install MySQL client version
  ```sh
   # yum install mysql
  ```
+Install java
+
+ # yum install java-1.8.0-openjdk -y
+ 
+ ...
 Download stable SonarQube version from below website. 
 - Website: https://www.sonarqube.org/downloads/
 - Note: This Article written for SonarQube6.0  
