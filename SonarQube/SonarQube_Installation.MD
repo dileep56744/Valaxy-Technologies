@@ -67,7 +67,7 @@ So for you have configured required database information on RDS. Let’s Jump ba
 ### ON EC2 Instance
 11.Edit sonar properties file to uncomment and provide required information for below properties. 
 
-- File Name: /opt/sonar/conf/sonar.properties
+- File Name: # vi /opt/sonar/conf/sonar.properties
   - sonar.jdbc.username=`sonar`
   - sonar.jdbc.password=`sonar`
   - sonar.jdbc.url=jdbc:mysql://`<RDS_DATABAE_ENDPOINT>:3306`/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false
